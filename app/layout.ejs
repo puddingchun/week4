@@ -10,7 +10,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/components/hover.css">
   <link rel="stylesheet" href="./assets/style/all.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -21,10 +23,10 @@
       <h1><a href="index.html"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true" alt="logo"></a></h1>
       <div class="nav">
         <ul class="d-flex">
-          <li><a href="#">系列鏡框</a></li>
-          <li><a href="#">門市據點</a></li>
-          <li><a href="#">部落格</a></li>
-          <li><a href="#">常見問題</a></li>
+          <li><a href="#" class="hvr-push">系列鏡框</a></li>
+          <li><a href="#" class="hvr-push">門市據點</a></li>
+          <li><a href="#" class="hvr-push">部落格</a></li>
+          <li><a href="#" class="hvr-push">常見問題</a></li>
         </ul>
       </div>
     </div>
@@ -37,11 +39,11 @@
     <div class="container border-bottom footer-flex">
       <div class="footer-nav-l">
         <ul class="f-nav d-flex">
-          <li><a href="">首頁</a></li>
-          <li><a href="">系列鏡框</a></li>
-          <li><a href="">門市據點</a></li>
-          <li><a href="">部落格</a></li>
-          <li><a href="">常見問題</a></li>
+          <li><a href="" class="hvr-overline-from-left">首頁</a></li>
+          <li><a href="" class="hvr-overline-from-left">系列鏡框</a></li>
+          <li><a href="" class="hvr-overline-from-left">門市據點</a></li>
+          <li><a href="" class="hvr-overline-from-left">部落格</a></li>
+          <li><a href="" class="hvr-overline-from-left">常見問題</a></li>
         </ul>
         <ul class="info">
           <li class="mb-8"><span class="material-symbols-outlined">call</span><a href="tel:+886-800000000">0800-000-000</a></li>
@@ -71,7 +73,10 @@
 
 
   </footer>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+   AOS.init();
+  </script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>
